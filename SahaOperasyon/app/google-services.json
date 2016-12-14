@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "174476625095",
+    "firebase_url": "https://saha-operasyon.firebaseio.com",
+    "project_id": "saha-operasyon",
+    "storage_bucket": "saha-operasyon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174476625095:android:80a579efb78c4fdc",
+        "android_client_info": {
+          "package_name": "saha.operasyon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174476625095-vaqi89rr26j9bmlp6tfg3jv7u273ck3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgjw_l6x0x1lXdeYwFNePIgMJmsOsgo5Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

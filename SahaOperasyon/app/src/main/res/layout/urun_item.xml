@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_urun"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <TextView
+            android:id="@+id/tv_urun_adi"
+            android:gravity="center_vertical"
+            android:text="ÜRÜN ADI"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+
+        <TextView
+            android:id="@+id/tv_urun_fiyati"
+            android:gravity="center_vertical|right"
+            android:text="1099 ₺"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </LinearLayout>
+</LinearLayout>
